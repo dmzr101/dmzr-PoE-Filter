@@ -1,5 +1,9 @@
 Endgame filter
 
-Highlights important currency and misc items
+Designed for endgame mapping
 
-Removes low im rares and low currency
+Enlarges important currency and misc items
+
+Removes low importance rares and low currency
+
+Removes most of low important normal and magic items 
