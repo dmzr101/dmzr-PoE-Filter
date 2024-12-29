@@ -9,6 +9,7 @@ Removes low importance rares and low currency
 Removes most of low importance normal and magic items
 
 
+
 Installation :
 
 Download and paste dmzr_endgame.filter file to Path of Exile 2 folder located in documents
