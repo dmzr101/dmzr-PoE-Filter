@@ -1,5 +1,5 @@
 Endgame filter
 
-[b]Highlights important currency and misc items[/b]
+Highlights important currency and misc items
 
 Removes low im rares and low currency
