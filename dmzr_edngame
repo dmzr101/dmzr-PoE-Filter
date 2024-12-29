@@ -1,0 +1,82 @@
+###########################
+### Hide low value currency 
+
+Hide
+BaseType  "Scroll of Wisdom" "Orb of Augmentation" "Orb of Transmutation" "Regal Shard" "Chance Shard"
+
+Hide 
+BaseType "Flesh Catalyst" "Sibilant Catalyst" "Adaptive Catalyst" "Xoph's Catalyst" "Carapace Catalyst" "Tul's Catalyst" "Reaver Catalyst" "Skittering Catalyst" "Uul-Netol's Catalyst" "Chayula's Catalyst"
+
+
+#######################
+### Highlight important
+
+Show 
+Class "Currency"
+BaseType "Gold"
+SetFontSize 32
+
+Show 
+Class "Currency"
+SetFontSize 45
+
+Show 
+Class "Wand"
+ItemLevel >= 82
+Rarity >= Magic
+SetFontSize 40
+
+Show 
+BaseType "Expert Shaman Mantle"
+Rarity >= Rare
+SetFontSize 40
+
+Show 
+Class "Amulets" "Rings" "Jewels" "Tablet" "Expedition Logbook"
+SetFontSize 45
+
+Show 
+BaseType "Uncut Skill Gem" "Uncut Spirit Gem"
+ItemLevel = 20
+SetFontSize 50
+SetTextColor 230 90 110
+
+Show 
+BaseType "Uncut Skill Gem" "Uncut Spirit Gem"
+ItemLevel = 19
+SetFontSize 40
+
+Show 
+BaseType "Waystone (Tier 15)" "Waystone (Tier 16)" 
+SetBorderColor 230 90 110
+SetFontSize 40
+
+Show 
+BaseType "Waystone (Tier 11)" "Waystone (Tier 12)" "Waystone (Tier 13)" "Waystone (Tier 14)"
+SetFontSize 38
+
+Show 
+Class "Waystone"
+SetFontSize 29
+
+
+#########################
+### Hide Low Rarity Trash
+
+Hide
+Class "Swords" "Bows" "Maces" "Two Hand Maces" "Shields" "Quarterstaves" "Helmets" "Body Armour" "Focus" "Gloves" "Quivers" "Flask" "Belts" "Wands" "Boots" "Sceptres" "Staff"
+Rarity <= Magic 
+
+
+#########################
+### Hide additional rares
+Hide
+Class "Swords" "Maces" "Two Hand Maces" "Quarterstaves" "Helmets" "Gloves" "Staff" "Body Armour"
+Rarity <= Rare 
+
+
+####################
+### Show other rares
+Show
+Rarity >= Rare 
+SetFontSize 38
