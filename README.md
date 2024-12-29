@@ -1,4 +1,5 @@
 Path of Exile 2 filter
+
 Designed for endgame mapping
 
 Enlarges important currency and misc items
