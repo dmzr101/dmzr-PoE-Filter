@@ -62,7 +62,7 @@ BaseType "Uncut Skill Gem" "Uncut Spirit Gem"
 ItemLevel = 19
 SetFontSize 40
 
-#### Additional Items 
+#### Additional items 
 Show 
 Class Wands
 ItemLevel >= 82
@@ -80,7 +80,7 @@ SetFontSize 45
 
 
 #########################
-### Hide Low Rarity Trash
+### Hide low rarity trash
 
 Hide
 Class "Swords" "Bows" "Maces" "Two Hand Maces" "Shields" "Quarterstaves" "Helmets" "Body Armour" "Focus" "Gloves" "Quivers" "Flask" "Belts" "Wands" "Boots" "Sceptres" "Staff"
