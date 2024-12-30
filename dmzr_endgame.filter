@@ -4,7 +4,7 @@
 ### Hide low value currency 
 
 Hide
-BaseType  "Scroll of Wisdom" "Orb of Augmentation" "Orb of Transmutation" "Regal Shard" "Chance Shard"
+BaseType "Orb of Transmutation" "Orb of Augmentation" "Scroll of Wisdom" "Regal Shard" "Chance Shard"
 
 Hide
 Class Currency
@@ -28,7 +28,7 @@ Show
 Class Currency 
 BaseType "Mirror" "Divine Orb" "Perfect Jeweller's Orb" 
 SetFontSize 50
-MinimapIcon 0 Green Star
+MinimapIcon 0 Green Square
 
 Show 
 Class Currency
@@ -56,6 +56,7 @@ BaseType "Uncut Skill Gem" "Uncut Spirit Gem"
 ItemLevel = 20
 SetFontSize 50
 SetTextColor 230 90 110
+MinimapIcon 0 Green Star
 
 Show 
 BaseType "Uncut Skill Gem" "Uncut Spirit Gem"
@@ -90,8 +91,13 @@ Rarity <= Magic
 #########################
 ### Hide additional rares
 
+Hide 
+Class "Helmets" "Gloves"
+Rarity == Rare
+AreaLevel >= 75
+
 Hide
-Class "Swords" "Maces" "Two Hand Maces" "Quarterstaves" "Helmets" "Gloves" "Staff" "Body Armour"
+Class "Swords" "Maces" "Two Hand Maces" "Quarterstaves" "Staff"
 Rarity == Rare 
 
 
